@@ -1,3 +1,49 @@
 body {
   background: blanchedalmond;
+ 
+}
+
+.container {
+  display: flex;
+  position: relative ;
+  
+  flex-wrap: wrap;
+  
+  
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 25vh;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+
+  min-width: 80%;
+  min-height: 40vh;
+  position: absolute;
+  top: 200px;
+  left: 2px;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+ 
+  min-width: 20%;
+  min-height: 40vh;
+  position: absolute;
+  top: 200px;
+  right: 0.5px;
 }

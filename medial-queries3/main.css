@@ -1,3 +1,97 @@
 body {
   background: peachpuff;
 }
+
+.a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 25vh;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 210px;
+  left: 10px;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 210px;
+  left: 315px;
+}
+
+.d{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 210px;
+  left: 620px;
+}
+
+.e {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 375px;
+  left: 10px;
+}
+
+.f {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 375px;
+  left: 315px;
+}
+
+.g {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  min-width: 20%;
+  min-height: 20vh;
+  position: absolute;
+  top: 375px;
+  left: 620px;
+}
+
+.h{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+ 
+  position: absolute;
+  right: 4px;
+  min-height: 46vh;
+  min-width: 35%;
+}
